@@ -1,0 +1,65 @@
+[1.559s] Invoking command in '/home/yash-verma/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash-verma/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/yash-verma/ros2_ws/src/build/my_py_pkg/build install --record /home/yash-verma/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.234s] running egg_info
+[2.238s] creating ../build/my_py_pkg/my_py_pkg.egg-info
+[2.342s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.342s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.343s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.343s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.343s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.343s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.529s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.534s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.538s] running build
+[2.538s] running build_py
+[2.543s] creating /home/yash-verma/ros2_ws/src/build/my_py_pkg/build
+[2.543s] creating /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib
+[2.544s] creating /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.545s] copying my_py_pkg/robot_news_station.py -> /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.545s] copying my_py_pkg/add_two_ints_server.py -> /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.546s] copying my_py_pkg/number_publisher.py -> /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.548s] copying my_py_pkg/my_first_node.py -> /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.549s] copying my_py_pkg/__init__.py -> /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.549s] copying my_py_pkg/number_counter.py -> /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.550s] copying my_py_pkg/template_python_node.py -> /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.551s] copying my_py_pkg/smartphone.py -> /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.552s] running install
+[2.573s] running install_lib
+[2.607s] creating /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.607s] copying /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.607s] copying /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.608s] copying /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.608s] copying /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.608s] copying /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.608s] copying /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.608s] copying /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.608s] copying /home/yash-verma/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.612s] byte-compiling /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-312.pyc
+[2.617s] byte-compiling /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[2.617s] byte-compiling /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-312.pyc
+[2.621s] byte-compiling /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[2.629s] byte-compiling /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[2.636s] byte-compiling /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[2.638s] byte-compiling /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-312.pyc
+[2.639s] byte-compiling /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-312.pyc
+[2.640s] running install_data
+[2.641s] creating /home/yash-verma/ros2_ws/src/install/my_py_pkg/share/ament_index
+[2.641s] creating /home/yash-verma/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index
+[2.642s] creating /home/yash-verma/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.642s] copying resource/my_py_pkg -> /home/yash-verma/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.643s] copying package.xml -> /home/yash-verma/ros2_ws/src/install/my_py_pkg/share/my_py_pkg
+[2.644s] running install_egg_info
+[2.646s]   File "/home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_python_node.py", line 23
+[2.646s]     1) chmod +x code_name.py 
+[2.646s]      ^
+[2.646s] SyntaxError: unmatched ')'
+[2.646s] 
+[2.702s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[2.714s] running install_scripts
+[3.048s] Installing add_two_ints_server script to /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.049s] Installing number_counter script to /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.050s] Installing number_publisher script to /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.050s] Installing py_node script to /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.053s] Installing robot_news_station script to /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.058s] Installing smartphone script to /home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.064s] writing list of installed files to '/home/yash-verma/ros2_ws/src/build/my_py_pkg/install.log'
+[3.222s] Invoked command in '/home/yash-verma/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash-verma/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/yash-verma/ros2_ws/src/build/my_py_pkg/build install --record /home/yash-verma/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed install_data

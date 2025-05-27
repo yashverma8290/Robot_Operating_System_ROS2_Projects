@@ -1,0 +1,5 @@
+  File "/home/yash-verma/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_python_node.py", line 23
+    1) chmod +x code_name.py 
+     ^
+SyntaxError: unmatched ')'
+
