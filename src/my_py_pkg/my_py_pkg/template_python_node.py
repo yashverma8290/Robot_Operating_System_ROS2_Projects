@@ -22,6 +22,7 @@ if __name__== "__main__":
 # after making new code
 # 1) chmod +x code_name.py 
 # 2) go to setup.py and add the the line 
-    "code_name = my_py_pkg.code_name:main"
-# 3)colcon build --packages-select my_py_pkg
- # 4)
+  #  eg. "code_name = my_py_pkg.code_name:main"
+# 3)colcon build --packages-select my_py_pkg --symlink-install 
+#   colcon build should be done inside ros2_ws and nothing else
+# 4) after that we can source it so that our terminal get to know the changes made my the workspace

@@ -14,7 +14,7 @@ def main(args=None):
 
     
     request = AddTwoInts.Request()
-    request.a = 3
+    request.a = 4
     request.b = 8
 
     future = client.call_async(request)
