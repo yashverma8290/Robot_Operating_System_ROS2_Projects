@@ -1,0 +1,28 @@
+[1.085s] Invoking command in '/home/yash-verma/ros2_ws/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash-verma/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yash-verma/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force
+[1.391s] running develop
+[1.576s] running egg_info
+[1.592s] writing my_py_pkg.egg-info/PKG-INFO
+[1.594s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.595s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.595s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.595s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.645s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.646s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.686s] running build_ext
+[1.686s] Creating /home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[1.686s] Installing add_two_ints_client script to /home/yash-verma/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.686s] Installing add_two_ints_client_no_oop script to /home/yash-verma/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.687s] Installing add_two_ints_server script to /home/yash-verma/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.687s] Installing hw_status_publisher script to /home/yash-verma/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.687s] Installing led_panel script to /home/yash-verma/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.687s] Installing number_counter script to /home/yash-verma/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.687s] Installing number_publisher script to /home/yash-verma/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.687s] Installing py_node script to /home/yash-verma/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.687s] Installing robot_news_station script to /home/yash-verma/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.687s] Installing smartphone script to /home/yash-verma/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.687s] 
+[1.689s] Installed /home/yash-verma/ros2_ws/build/my_py_pkg
+[1.689s] running symlink_data
+[1.690s] symbolically linking /home/yash-verma/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /home/yash-verma/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.690s] symbolically linking /home/yash-verma/ros2_ws/build/my_py_pkg/package.xml -> /home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.719s] Invoked command in '/home/yash-verma/ros2_ws/build/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash-verma/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yash-verma/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force

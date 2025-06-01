@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_robot_interfaces__py",
+		"source" : "/home/yash-verma/ros2_ws/src/build/my_robot_interfaces/my_robot_interfaces__py"
+	}
+}

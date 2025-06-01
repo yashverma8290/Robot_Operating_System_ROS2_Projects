@@ -1,0 +1,93 @@
+How to Create Your Own ROS2 Package with a Custom Message (HardwareStatus.msg)
+============================================================================
+
+Step 1: Create a new ROS2 package
+---------------------------------
+- Open terminal and navigate to your ROS2 workspace src folder:
+ cd ~/ros2_ws/src
+
+- Create a new package with CMake build system and necessary dependencies:
+ ros2 pkg create my_robot_interfaces --build-type ament_cmake --dependencies rclcpp std_msgs
+
+- This will create a folder my_robot_interfaces with:
+ - CMakeLists.txt (build instructions)
+ - package.xml (metadata & dependencies)
+ - src/ and include/ folders (optional)
+
+
+
+
+
+Step 2: Add your custom message file
+------------------------------------
+- Inside your package folder, create a msg directory:
+ mkdir -p my_robot_interfaces/msg
+
+- Create your message file HardwareStatus.msg inside msg/:
+ bool is_operational
+ float32 temperature
+ string status_message
+
+
+
+Step 3: Modify CMakeLists.txt to include your message
+-----------------------------------------------------
+- Open my_robot_interfaces/CMakeLists.txt
+
+- Add or update the following parts:
+ find_package(ament_cmake REQUIRED)
+ find_package(rosidl_default_generators REQUIRED)
+ rosidl_generate_interfaces(${PROJECT_NAME}
+ "msg/HardwareStatus.msg"
+ )
+ ament_export_dependencies(rosidl_default_runtime)
+ ament_package()
+
+
+
+
+Step 4: Update package.xml dependencies
+----------------------------------------
+- Open my_robot_interfaces/package.xml
+
+- Make sure these dependencies exist inside <package> tags:
+ <buildtool_depend>ament_cmake</buildtool_depend>
+ <buildtool_depend>rosidl_default_generators</buildtool_depend>
+ <exec_depend>rosidl_default_runtime</exec_depend>
+
+- Also add maintainer, license, and description as needed.
+
+
+
+
+Step 5: Build your package
+--------------------------
+- Go back to your workspace root:
+ cd ~/ros2_ws
+
+- Build your package:
+ colcon build --packages-select my_robot_interfaces
+ 
+- Source the workspace setup file:
+ source install/setup.bash
+
+
+
+
+Step 6: Use your custom message
+-------------------------------
+- Now your HardwareStatus message is ready to be used in ROS2 nodes (C++/Python) as publisher
+or subscriber.
+
+
+
+
+Quick summary for next time:
+----------------------------
+1. Create package with:
+ ros2 pkg create <package_name> --build-type ament_cmake --dependencies rclcpp std_msgs
+2. Add .msg files inside a msg/ folder.
+3. Update CMakeLists.txt to call rosidl_generate_interfaces() on your .msg files.
+4. Add required dependencies in package.xml.
+5. Build with colcon build.
+6. Source workspace and start using your messages!

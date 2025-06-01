@@ -1,0 +1,50 @@
+[0.010s] Invoking command in '/home/yash-verma/ros2_ws/build/my_robot_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/my_robot_interfaces
+[0.036s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.242s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.295s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.584s] Error parsing '/home/yash-verma/ros2_ws/src/my_robot_interfaces/package.xml':
+[1.644s] Traceback (most recent call last):
+[1.645s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.645s]     root = dom.parseString(data)
+[1.645s]            ^^^^^^^^^^^^^^^^^^^^^
+[1.645s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[1.645s]     return expatbuilder.parseString(string)
+[1.645s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.645s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[1.645s]     return builder.parseString(string)
+[1.646s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.646s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[1.646s]     parser.Parse(string, True)
+[1.646s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 26, column 1
+[1.646s] 
+[1.646s] During handling of the above exception, another exception occurred:
+[1.646s] 
+[1.646s] Traceback (most recent call last):
+[1.646s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.646s]     main()
+[1.646s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.646s]     raise e
+[1.646s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.647s]     package = parse_package_string(
+[1.647s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.647s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.647s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.647s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/yash-verma/ros2_ws/src/my_robot_interfaces/package.xml':
+[1.647s] The manifest contains invalid XML:
+[1.647s] not well-formed (invalid token): line 26, column 1
+[1.685s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.686s]   execute_process(/usr/bin/python3
+[1.686s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.686s]   /home/yash-verma/ros2_ws/src/my_robot_interfaces/package.xml
+[1.686s]   /home/yash-verma/ros2_ws/build/my_robot_interfaces/ament_cmake_core/package.cmake)
+[1.686s]   returned error code 1
+[1.686s] Call Stack (most recent call first):
+[1.686s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.686s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[1.686s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[1.687s] 
+[1.687s] [0m
+[1.687s] -- Configuring incomplete, errors occurred!
+[1.693s] Invoked command in '/home/yash-verma/ros2_ws/build/my_robot_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/my_robot_interfaces

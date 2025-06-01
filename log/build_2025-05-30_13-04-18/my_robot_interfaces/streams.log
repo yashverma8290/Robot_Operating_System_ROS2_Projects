@@ -1,0 +1,63 @@
+[0.024s] Invoking command in '/home/yash-verma/ros2_ws/build/my_robot_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/my_robot_interfaces
+[0.301s] -- The C compiler identification is GNU 13.3.0
+[0.498s] -- The CXX compiler identification is GNU 13.3.0
+[0.544s] -- Detecting C compiler ABI info
+[0.672s] -- Detecting C compiler ABI info - done
+[0.682s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.683s] -- Detecting C compile features
+[0.684s] -- Detecting C compile features - done
+[0.699s] -- Detecting CXX compiler ABI info
+[0.827s] -- Detecting CXX compiler ABI info - done
+[0.828s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.828s] -- Detecting CXX compile features
+[0.828s] -- Detecting CXX compile features - done
+[0.853s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.021s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.229s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.469s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.776s] Error parsing '/home/yash-verma/ros2_ws/src/my_robot_interfaces/package.xml':
+[4.421s] Traceback (most recent call last):
+[4.421s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[4.421s]     root = dom.parseString(data)
+[4.421s]            ^^^^^^^^^^^^^^^^^^^^^
+[4.422s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[4.422s]     return expatbuilder.parseString(string)
+[4.422s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.423s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[4.424s]     return builder.parseString(string)
+[4.424s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.424s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[4.424s]     parser.Parse(string, True)
+[4.424s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 26, column 1
+[4.424s] 
+[4.424s] During handling of the above exception, another exception occurred:
+[4.424s] 
+[4.424s] Traceback (most recent call last):
+[4.424s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[4.424s]     main()
+[4.424s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[4.424s]     raise e
+[4.425s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[4.425s]     package = parse_package_string(
+[4.425s]               ^^^^^^^^^^^^^^^^^^^^^
+[4.425s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[4.425s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[4.425s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/yash-verma/ros2_ws/src/my_robot_interfaces/package.xml':
+[4.425s] The manifest contains invalid XML:
+[4.425s] not well-formed (invalid token): line 26, column 1
+[4.471s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.472s]   execute_process(/usr/bin/python3
+[4.472s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.472s]   /home/yash-verma/ros2_ws/src/my_robot_interfaces/package.xml
+[4.472s]   /home/yash-verma/ros2_ws/build/my_robot_interfaces/ament_cmake_core/package.cmake)
+[4.473s]   returned error code 1
+[4.473s] Call Stack (most recent call first):
+[4.473s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.473s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[4.473s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[4.473s] 
+[4.474s] [0m
+[4.474s] -- Configuring incomplete, errors occurred!
+[4.482s] Invoked command in '/home/yash-verma/ros2_ws/build/my_robot_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/my_robot_interfaces
