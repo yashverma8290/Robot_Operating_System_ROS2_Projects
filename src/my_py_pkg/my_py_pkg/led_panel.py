@@ -9,42 +9,36 @@ class LEDPanelNode(Node):
     def __init__(self):
         super().__init__("led_panel")  
         
-        # Internal state of 3 LEDs: [0, 0, 0] → all OFF initially
+      
         self.led_states_ = [0, 0, 0]
-        
-        # Publisher to broadcast current LED states over topic "led_panel_state"
+
         self.led_states_pub_ = self.create_publisher(LedStateArray, "led_panel_state", 10)
-        
-        # Timer to automatically publish LED states every 5 seconds
         self.led_states_timer_ = self.create_timer(5.0, self.publish_led_states)
-        
-        # Service to allow clients to set specific LED state via "set_led"
-        self.set_led_service_ = self.create_service(SetLed, "set_led", self.callback_set_led)
-        
+        self.set_led_service_ = self.create_service(SetLed, "set_led", self.callback_set_led_service)
         self.get_logger().info("LED panel node has been started") 
 
     # Function to publish current LED states to the topic
     def publish_led_states(self):
         msg = LedStateArray()  # Create an instance of custom message
-        msg.led_states = self.led_states_  # Assign current internal LED states to the message
-        self.led_states_pub_.publish(msg)  # Publish the message
+        msg.led_states = self.led_states_  
+        self.led_states_pub_.publish(msg)  
 
     # Callback function for the "set_led" service
-    def callback_set_led(self, request: SetLed.Request, response: SetLed.Response):
+    def callback_set_led_service(self, request: SetLed.Request, response: SetLed.Response):
         led_number_to_update = request.led_number  # Get which LED client wants to update
         new_led_state = request.led_states   # Get the desired state: 0 = OFF, 1 = ON
 
-        # Validate the LED number is within the valid range
+        
         if led_number_to_update >= len(self.led_states_) or led_number_to_update < 0:
             response.success = False
             return response
         
-        # Validate the LED state is either 0 or 1
+        
         if new_led_state not in [0, 1]:
             response.success = False
             return response  
 
-        # Set the new state to the specific LED
+        
         self.led_states_[led_number_to_update] = new_led_state
         
         # Optionally publish updated state immediately after change
