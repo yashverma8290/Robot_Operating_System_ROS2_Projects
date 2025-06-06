@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:12 (instaLL):
+  instaLL DIRECTORY given unknown argument "/my_robot_bringup/".
+
+[0m

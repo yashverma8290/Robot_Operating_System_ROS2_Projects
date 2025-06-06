@@ -1,0 +1,4 @@
+/my_number_publisher:
+  ros_parameters:
+    number: 6
+    time period: 1.5
