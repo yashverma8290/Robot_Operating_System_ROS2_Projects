@@ -5,11 +5,15 @@
 
 module my_robot_interfaces {
   module srv {
+    @verbatim (language="comment", text=
+      "Request part")
     struct SetLed_Request {
       int64 led_number;
 
       int64 led_states;
     };
+    @verbatim (language="comment", text=
+      "Response part")
     struct SetLed_Response {
       boolean success;
     };

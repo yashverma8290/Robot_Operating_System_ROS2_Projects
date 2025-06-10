@@ -342,9 +342,11 @@ my_robot_interfaces__srv__SetLed_Event__get_type_description(
 }
 
 static char toplevel_type_raw_source[] =
+  "# Request part\n"
   "int64 led_number\n"
   "int64 led_states\n"
   "---\n"
+  "# Response part\n"
   "bool success";
 
 static char srv_encoding[] = "srv";
@@ -360,7 +362,7 @@ my_robot_interfaces__srv__SetLed__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {my_robot_interfaces__srv__SetLed__TYPE_NAME, 30, 30},
     {srv_encoding, 3, 3},
-    {toplevel_type_raw_source, 50, 50},
+    {toplevel_type_raw_source, 81, 81},
   };
   return &source;
 }

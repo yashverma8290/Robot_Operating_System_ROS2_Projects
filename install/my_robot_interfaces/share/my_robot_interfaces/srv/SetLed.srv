@@ -1,4 +1,6 @@
+# Request part
 int64 led_number
 int64 led_states
 ---
+# Response part
 bool success
