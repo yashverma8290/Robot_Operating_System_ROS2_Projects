@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h"
 #include "my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h"
 

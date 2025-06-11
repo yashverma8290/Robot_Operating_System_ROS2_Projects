@@ -8,7 +8,8 @@
     "/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Turtle.idl",
     "/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TurtleArray.idl",
     "/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
-    "/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl"
+    "/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl",
+    "/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/CatchTurtle.idl"
   ],
   "ros_interface_files": [
     "/home/yash-verma/ros2_ws/src/my_robot_interfaces/msg/HardwareStatus.msg",
@@ -16,7 +17,8 @@
     "/home/yash-verma/ros2_ws/src/my_robot_interfaces/msg/Turtle.msg",
     "/home/yash-verma/ros2_ws/src/my_robot_interfaces/msg/TurtleArray.msg",
     "/home/yash-verma/ros2_ws/src/my_robot_interfaces/srv/ComputeRectangleArea.srv",
-    "/home/yash-verma/ros2_ws/src/my_robot_interfaces/srv/SetLed.srv"
+    "/home/yash-verma/ros2_ws/src/my_robot_interfaces/srv/SetLed.srv",
+    "/home/yash-verma/ros2_ws/src/my_robot_interfaces/srv/CatchTurtle.srv"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -49,6 +51,7 @@
     "/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/TurtleArray.idl",
     "/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
     "/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl",
+    "/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/CatchTurtle.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
@@ -59,6 +62,7 @@
     "msg/Turtle.idl:/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/Turtle.json",
     "msg/TurtleArray.idl:/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/TurtleArray.json",
     "srv/ComputeRectangleArea.idl:/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/ComputeRectangleArea.json",
-    "srv/SetLed.idl:/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/SetLed.json"
+    "srv/SetLed.idl:/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/SetLed.json",
+    "srv/CatchTurtle.idl:/home/yash-verma/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/CatchTurtle.json"
   ]
 }
