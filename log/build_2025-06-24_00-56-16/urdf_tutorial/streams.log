@@ -1,0 +1,20 @@
+[0.296s] Invoking command in '/home/yash-verma/ros2_ws/build/urdf_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/urdf_tutorial
+[0.365s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.365s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.365s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.365s]   CMake did not find one.
+[0.365s] 
+[0.365s]   Could not find a package configuration file provided by "catkin" with any
+[0.365s]   of the following names:
+[0.365s] 
+[0.365s]     catkinConfig.cmake
+[0.365s]     catkin-config.cmake
+[0.365s] 
+[0.365s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.365s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.365s]   provides a separate development package or SDK, be sure it has been
+[0.366s]   installed.
+[0.366s] 
+[0.366s] [0m
+[0.366s] -- Configuring incomplete, errors occurred!
+[0.370s] Invoked command in '/home/yash-verma/ros2_ws/build/urdf_tutorial' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/urdf_tutorial

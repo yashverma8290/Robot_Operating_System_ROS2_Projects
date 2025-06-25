@@ -1,0 +1,2 @@
+Invoking command in '/home/yash-verma/ros2_ws/build/urdf_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/urdf_tutorial
+Invoked command in '/home/yash-verma/ros2_ws/build/urdf_tutorial' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/urdf_tutorial

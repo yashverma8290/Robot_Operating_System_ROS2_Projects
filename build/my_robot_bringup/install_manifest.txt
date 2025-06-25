@@ -1,7 +1,9 @@
 /home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/number_app.launch.py
 /home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/number_app.launch.xml
 /home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/number_app_from_python.launch.xml
+/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/turtlesim_catch_them_all.launch.xml
 /home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/radio.launch.xml
+/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//config/catch_them_all_config.yaml
 /home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//config/number_app.yaml
 /home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//config/radio_config.yaml
 /home/yash-verma/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
