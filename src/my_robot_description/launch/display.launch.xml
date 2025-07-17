@@ -1,0 +1,12 @@
+<launch>
+  <!-- Provide full path to the URDF file directly -->
+  <arg name="urdf_path" default="/home/yash-verma/ros2_ws/src/my_robot_description/urdf/my_robot.urdf" />
+
+  <node pkg="robot_state_publisher" exec="robot_state_publisher" name="rsp">
+    <param name="robot_description" value="$(env urdf_path)" />
+  </node>
+
+  <node pkg="joint_state_publisher_gui" exec="joint_state_publisher_gui" name="jsp_gui" />
+
+  <node pkg="rviz2" exec="rviz2" name="rviz" args="-d /home/yash-verma/ros2_ws/src/my_robot_description/rviz/urdf_config.rviz" />
+</launch>
