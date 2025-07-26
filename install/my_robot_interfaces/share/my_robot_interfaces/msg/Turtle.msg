@@ -1,4 +1,1 @@
-string name
-float64 x
-float64 y
-float64 theta
+/home/yash-verma/ros2_ws/src/my_robot_interfaces/msg/Turtle.msg

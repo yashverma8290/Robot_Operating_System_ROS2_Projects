@@ -1,3 +1,1 @@
-string name
----
-bool success
+/home/yash-verma/ros2_ws/src/my_robot_interfaces/srv/CatchTurtle.srv

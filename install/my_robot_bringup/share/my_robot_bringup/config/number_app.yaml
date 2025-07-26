@@ -1,4 +1,1 @@
-/my_number_publisher:
-  ros_parameters:
-    number: 6
-    time period: 1.5
+/home/yash-verma/ros2_ws/src/my_robot_bringup/config/number_app.yaml
