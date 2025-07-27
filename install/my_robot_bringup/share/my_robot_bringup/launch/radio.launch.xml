@@ -1,1 +1,22 @@
-/home/yash-verma/ros2_ws/src/my_robot_bringup/launch/radio.launch.xml
+<launch>
+   <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_yash" >
+      <param from="$(find-pkg-share my_robot_bringup)/config/radio_configg.yaml" />
+   </node>
+
+   <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_sanjeev" >
+      <param from="$(find-pkg-share my_robot_bringup)/config/radio_configg.yaml" />
+   </node>
+
+   <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_rajnis" >
+      <param from="$(find-pkg-share my_robot_bringup)/config/radio_configg.yaml" />
+   </node>
+
+   <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_shivam" >
+      <param from="$(find-pkg-share my_robot_bringup)/config/radio_configg.yaml" />
+   </node>
+
+   <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_krishna" >
+      <param from="$(find-pkg-share my_robot_bringup)/config/radio_configg.yaml" />
+   </node>
+   <node pkg="my_py_pkg"  exec="smartphone" />
+</launch>

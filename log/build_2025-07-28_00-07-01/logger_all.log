@@ -1,0 +1,404 @@
+[0.108s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.108s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x787123577680>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7871236cc1a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7871236cc1a0>>)
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.151s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yash-verma/ros2_ws'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_them_all) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_catch_them_all' with type 'ros.ament_python' and name 'turtlesim_catch_them_all'
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.211s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yash-verma/ros2_ws/install/my_robot_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.211s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.211s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yash-verma/ros2_ws/install/my_py_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.211s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yash-verma/ros2_ws/install/my_robot_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.211s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yash-verma/ros2_ws/install/my_robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yash-verma/ros2_ws/install/my_robot_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yash-verma/ros2_ws/install/my_robot_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/yash-verma/ros2_ws/install/my_robot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/yash-verma/ros2_ws/install
+[0.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 483 installed packages in /opt/ros/jazzy
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.291s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash-verma/ros2_ws/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash-verma/ros2_ws/install/my_robot_description', 'merge_install': False, 'path': '/home/yash-verma/ros2_ws/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash-verma/ros2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash-verma/ros2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/yash-verma/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash-verma/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash-verma/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/yash-verma/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_catch_them_all' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash-verma/ros2_ws/build/turtlesim_catch_them_all', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all', 'merge_install': False, 'path': '/home/yash-verma/ros2_ws/src/turtlesim_catch_them_all', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash-verma/ros2_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash-verma/ros2_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/yash-verma/ros2_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.294s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.295s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yash-verma/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yash-verma/ros2_ws/src/my_robot_interfaces'
+[0.297s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yash-verma/ros2_ws/src/my_robot_description' with build type 'ament_cmake'
+[0.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yash-verma/ros2_ws/src/my_robot_description'
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-verma/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/my_robot_interfaces
+[0.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-verma/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/my_robot_description
+[2.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-verma/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/my_robot_description
+[2.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-verma/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash-verma/ros2_ws/build/my_robot_description -- -j3 -l3
+[2.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-verma/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash-verma/ros2_ws/build/my_robot_description -- -j3 -l3
+[2.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-verma/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash-verma/ros2_ws/build/my_robot_description
+[2.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[2.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-verma/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash-verma/ros2_ws/build/my_robot_description
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description' for CMake module files
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description' for CMake config files
+[2.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[2.414s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description/bin'
+[2.414s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[2.414s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description/lib/python3.12/site-packages'
+[2.414s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description/bin'
+[2.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[2.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[2.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[2.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-verma/ros2_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[2.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[2.431s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description' for CMake module files
+[2.433s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description' for CMake config files
+[2.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[2.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[2.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[2.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description/bin'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description/lib/python3.12/site-packages'
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_description/bin'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[2.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[2.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[2.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[2.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-verma/ros2_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[5.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-verma/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/my_robot_interfaces
+[5.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-verma/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash-verma/ros2_ws/build/my_robot_interfaces -- -j3 -l3
+[22.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-verma/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash-verma/ros2_ws/build/my_robot_interfaces -- -j3 -l3
+[22.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-verma/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash-verma/ros2_ws/build/my_robot_interfaces
+[22.811s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[22.811s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces' for CMake module files
+[22.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-verma/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash-verma/ros2_ws/build/my_robot_interfaces
+[22.813s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces' for CMake config files
+[22.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[22.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[22.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[22.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[22.815s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib'
+[22.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[22.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[22.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[22.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[22.817s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces/bin'
+[22.817s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[22.817s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages'
+[22.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[22.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[22.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[22.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[22.818s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces/bin'
+[22.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[22.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[22.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[22.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[22.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[22.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[22.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[22.821s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces' for CMake module files
+[22.822s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces' for CMake config files
+[22.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[22.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[22.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[22.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[22.824s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib'
+[22.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[22.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[22.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[22.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[22.826s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces/bin'
+[22.826s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[22.826s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages'
+[22.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[22.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[22.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[22.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[22.828s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_interfaces/bin'
+[22.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[22.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[22.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[22.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[22.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[22.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-verma/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[22.832s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yash-verma/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[22.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[22.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[22.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[22.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[22.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.841s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yash-verma/ros2_ws/src/turtlesim_catch_them_all' with build type 'ament_python'
+[22.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_catch_them_all', 'ament_prefix_path')
+[22.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/ament_prefix_path.ps1'
+[22.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/ament_prefix_path.dsv'
+[22.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/ament_prefix_path.sh'
+[22.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.847s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.144s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yash-verma/ros2_ws/src/my_py_pkg'
+[23.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.456s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yash-verma/ros2_ws/src/turtlesim_catch_them_all'
+[23.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-verma/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash-verma/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/yash-verma/ros2_ws/build/my_py_pkg/build install --record /home/yash-verma/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[25.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-verma/ros2_ws/src/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash-verma/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/yash-verma/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/yash-verma/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data
+[25.851s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_py_pkg' for CMake module files
+[25.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-verma/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash-verma/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/yash-verma/ros2_ws/build/my_py_pkg/build install --record /home/yash-verma/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[25.858s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_py_pkg' for CMake config files
+[25.858s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_py_pkg/lib'
+[25.858s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_py_pkg/bin'
+[25.859s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[25.859s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages'
+[25.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[25.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[25.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[25.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[25.861s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_py_pkg/bin'
+[25.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[25.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[25.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[25.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[25.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[25.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[25.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-verma/ros2_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[26.152s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all' for CMake module files
+[26.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-verma/ros2_ws/src/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yash-verma/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/yash-verma/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/yash-verma/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/yash-verma/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data
+[26.154s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all' for CMake config files
+[26.154s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/lib'
+[26.154s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/bin'
+[26.154s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/lib/pkgconfig/turtlesim_catch_them_all.pc'
+[26.154s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages'
+[26.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_catch_them_all', 'pythonpath')
+[26.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/pythonpath.ps1'
+[26.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/pythonpath.dsv'
+[26.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/pythonpath.sh'
+[26.156s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/bin'
+[26.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_catch_them_all)
+[26.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.ps1'
+[26.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv'
+[26.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.sh'
+[26.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.bash'
+[26.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.zsh'
+[26.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all/share/colcon-core/packages/turtlesim_catch_them_all)
+[26.158s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yash-verma/ros2_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[26.158s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yash-verma/ros2_ws/src/my_robot_bringup'
+[26.159s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.159s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-verma/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/my_robot_bringup
+[27.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-verma/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yash-verma/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/yash-verma/ros2_ws/install/my_robot_bringup
+[27.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-verma/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash-verma/ros2_ws/build/my_robot_bringup -- -j3 -l3
+[27.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-verma/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yash-verma/ros2_ws/build/my_robot_bringup -- -j3 -l3
+[27.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-verma/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash-verma/ros2_ws/build/my_robot_bringup
+[27.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[27.351s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup' for CMake module files
+[27.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-verma/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/yash-verma/ros2_ws/install/my_robot_interfaces:/home/yash-verma/ros2_ws/install/my_robot_bringup:/home/yash-verma/ros2_ws/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yash-verma/ros2_ws/install/turtlesim_catch_them_all:/home/yash-verma/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yash-verma/ros2_ws/build/my_robot_bringup
+[27.352s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup' for CMake config files
+[27.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[27.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[27.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[27.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[27.354s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup/bin'
+[27.354s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[27.354s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages'
+[27.355s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup/bin'
+[27.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[27.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[27.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[27.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[27.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[27.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-verma/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[27.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[27.357s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup' for CMake module files
+[27.358s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup' for CMake config files
+[27.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[27.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[27.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[27.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[27.360s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup/bin'
+[27.360s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[27.360s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages'
+[27.360s] Level 1:colcon.colcon_core.environment:checking '/home/yash-verma/ros2_ws/install/my_robot_bringup/bin'
+[27.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[27.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[27.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[27.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[27.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-verma/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[27.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-verma/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[27.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.365s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.403s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.403s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.403s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.423s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.424s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-verma/ros2_ws/install/local_setup.ps1'
+[27.425s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yash-verma/ros2_ws/install/_local_setup_util_ps1.py'
+[27.427s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-verma/ros2_ws/install/setup.ps1'
+[27.429s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-verma/ros2_ws/install/local_setup.sh'
+[27.430s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yash-verma/ros2_ws/install/_local_setup_util_sh.py'
+[27.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-verma/ros2_ws/install/setup.sh'
+[27.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-verma/ros2_ws/install/local_setup.bash'
+[27.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-verma/ros2_ws/install/setup.bash'
+[27.433s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-verma/ros2_ws/install/local_setup.zsh'
+[27.433s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-verma/ros2_ws/install/setup.zsh'

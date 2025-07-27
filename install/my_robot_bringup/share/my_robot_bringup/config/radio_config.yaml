@@ -1,1 +1,19 @@
-/home/yash-verma/ros2_ws/src/my_robot_bringup/config/radio_config.yaml
+/robot_news_station_yash:
+  ros__parameters:
+    robot_name: "YASH"
+
+/robot_news_station_sanjeev:
+  ros__parameters:
+    robot_name: "SANJEEV"
+
+/robot_news_station_rajnis:
+  ros__parameters:
+    robot_name: "RAJNIS"
+
+/robot_news_station_shivam:
+  ros__parameters:
+    robot_name: "SHIVAM"
+
+/robot_news_station_krishna:
+  ros__parameters:
+    robot_name: "KRISHNA"
