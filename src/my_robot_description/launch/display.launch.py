@@ -36,3 +36,6 @@ def generate_launch_description():
         joint_state_publisher_gui_node,
         rviz2_node
     ])
+
+
+# ros2 launch my_robot_description display.launch.py
